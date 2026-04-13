@@ -233,7 +233,6 @@ mat2 *
 Re-run metadata extraction on the cleaned files to confirm removal. Compare the cleaned output against the originals to evaluate MAT2’s effectiveness and identify any fields that remain:
 ```bash
 exiftool *
-sha256sum * > ../after_hashes.txt
 ```
 Before we finish, we will compare the hashes from the files we cleanup in this lab. First, you should create hashes of the “after” files and then compare the “before” hashes, with the “after” hashes:
 ```bash
